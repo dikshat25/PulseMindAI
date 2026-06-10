@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment Variables (CRITICAL: Do not commit these!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Firebase
+firebase-debug.log
+firebase-debug.*.log
+.firebase/
+database-debug.log
+ui-debug.log
+
+# IDEs and Editor dirs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
