@@ -1,44 +1,44 @@
-# 🧠 PulseMind AI - Mental Wellness Platform
+# PulseMind AI - Mental Wellness Platform
 
-**PulseMind AI** is a comprehensive, AI-powered mental wellness and burnout prediction dashboard built in alignment with the **United Nations Sustainable Development Goal 3 (Good Health and Well-being)**. 
+PulseMind AI is a comprehensive, AI-powered mental wellness and burnout prediction dashboard built in alignment with the United Nations Sustainable Development Goal 3 (Good Health and Well-being). 
 
-It provides users with real-time gamified wellness tracking, deep emotional insights, a dedicated AI-powered journaling space, and an empathetic AI Wellness Coach, all wrapped in a premium, Apple-inspired glassmorphism interface.
+It provides users with real-time gamified wellness tracking, deep emotional insights, a dedicated AI-powered journaling space, and an empathetic AI Wellness Coach, all wrapped in a premium, modern interface.
 
 ---
 
-## ✨ Core Features
+## Core Features
 
-### 1. 📊 Gamified Daily Checklist
-Instead of generic, boring forms, users can check off their daily wellness milestones (Mood, Sleep, Stress, Energy) individually. As each milestone is hit, a beautifully animated, always-visible Progress Bar on the Dashboard instantly updates in 25% increments to provide immediate gratification and encourage consistency.
+### 1. Gamified Daily Checklist
+Instead of generic forms, users can check off their daily wellness milestones (Mood, Sleep, Stress, Energy) individually. As each milestone is hit, an always-visible Progress Bar on the Dashboard instantly updates in 25% increments to provide immediate gratification and encourage consistency.
 
-### 2. 🤖 AI Burnout & Wellness Prediction
-By analyzing a 7-day trailing average of the user's stress, mood, and sleep data, our backend `gemini-3.1-flash-lite` model predicts Burnout Risk (Low, Medium, High) and generates highly personalized actionable insights.
+### 2. AI Burnout & Wellness Prediction
+By analyzing a 7-day trailing average of the user's stress, mood, and sleep data, our backend Gemini 3.1 Flash Lite model predicts Burnout Risk (Low, Medium, High) and generates highly personalized actionable insights.
 
-### 3. 📔 Sentient AI Journal
+### 3. Sentient AI Journal
 A private, distraction-free environment for users to free-write their thoughts. Upon saving, the backend AI immediately analyzes the text, assigns an emotional categorization (Happy, Sad, Stressed, Neutral), and replies instantly with an empathetic, supportive message. 
 
-### 4. 💬 AI Wellness Coach Chatbot
+### 4. AI Wellness Coach Chatbot
 An always-available, floating AI chatbot that uses dynamic context (including the user's name) to provide immediate emotional support and grounding techniques.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Frontend:**
 - React (Vite)
 - Tailwind CSS (Premium Glassmorphism & Animated Gradients)
 - Framer Motion (Page Transitions & Micro-interactions)
 - Recharts (Data Visualization)
-- Firebase Auth & Firestore (Real-time `onSnapshot` listeners)
+- Firebase Auth & Firestore (Real-time onSnapshot listeners)
 
 **Backend:**
 - Node.js & Express
 - Firebase Admin SDK
-- Google Generative AI (`gemini-3.1-flash-lite` for all AI inference)
+- Google Generative AI (gemini-3.1-flash-lite for all AI inference)
 
 ---
 
-## 🚀 Local Development Setup
+## Local Development Setup
 
 ### 1. Prerequisites
 - Node.js (v18+)
@@ -51,7 +51,7 @@ An always-available, floating AI chatbot that uses dynamic context (including th
    cd backend
    npm install
    ```
-2. Create a `.env` file in the `backend` folder:
+2. Create a .env file in the backend folder:
    ```env
    PORT=5000
    GEMINI_API_KEY=your_google_ai_studio_key
@@ -70,7 +70,7 @@ An always-available, floating AI chatbot that uses dynamic context (including th
    cd frontend
    npm install
    ```
-2. Create a `.env` file in the `frontend` folder:
+2. Create a .env file in the frontend folder:
    ```env
    VITE_FIREBASE_API_KEY=your_firebase_api_key
    VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
@@ -86,4 +86,4 @@ An always-available, floating AI chatbot that uses dynamic context (including th
    ```
 
 ---
-*Built with ❤️ for SDG 3.*
+Built for SDG 3: Good Health and Well-being.
